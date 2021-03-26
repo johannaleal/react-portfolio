@@ -3,8 +3,10 @@ import "./style.css";
 
 function Footer() {
   return (
-    <footer className="footer">
-      <span>Pupster 2017</span>
+    <footer className="footer mt-auto py-3 bg-light">
+      <div className="container">
+        <span className="text-muted">Copyright 2021 Johanna Leal</span>
+      </div>
     </footer>
   );
 }
