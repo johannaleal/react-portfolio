@@ -1,4 +1,8 @@
 import React from "react";
+import profilePic from "./assets/images/profile-pic.png";
+import gitHubIcon from "./assets/images/GitHub-Mark-64px.png";
+import linkedInIcon from "./assets/images/In-Blue-Logo-original.png";
+import resume from "./assets/Leal_Johanna_Resume.pdf";
 
 function About() {
   return (
@@ -8,7 +12,7 @@ function About() {
             <h1 className="page-header">About Me</h1>
             <div className="row">
               <div className="col-md-3">
-                <img className="img img-thumbnail img-fluid profile-img" src="../../public/assets/images/profile-pic.png" alt="johanna leal pic" />
+                <img className="img img-thumbnail img-fluid profile-img" src={profilePic} alt="johanna leal pic" />
               </div>
 
               <div className="col-md-9">
@@ -26,10 +30,10 @@ function About() {
                 <h4 className="card-title card-center">Let's Connect</h4>
                 <br></br>
                 <p className="card-text">
-                  <a target="_blank" rel="noreferrer" href="https://github.com/johannaleal"><img src="../../public/assets/images/GitHub-Mark-64px.png" alt="GitHub icon" /></a>
+                  <a target="_blank" rel="noreferrer" href="https://github.com/johannaleal"><img src={gitHubIcon} alt="GitHub icon" /></a>
                   &nbsp;&nbsp;
-                  <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/johannarleal/"><img src="../../public/assets/images/In-Blue-Logo-original.png" alt="LinkedIn icon" /></a></p>
-                  <a id="resume-link" target="_blank" href="./assets/Leal_Johanna_Resume.pdf">My Resume</a>
+                  <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/johannarleal/"><img src={linkedInIcon} alt="LinkedIn icon" /></a></p>
+                  <a id="resume-link" target="_blank" rel="noreferrer"  href={resume}>My Resume</a>
               </div>
             </div>
           </div>
