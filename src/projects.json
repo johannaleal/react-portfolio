@@ -1,0 +1,50 @@
+[
+    {
+        "id": "1",
+        "title": "Code Quiz",
+        "img": "code-quiz.png",
+        "descr": "A timed coding quiz with multiple-choice questions",
+        "github": "https://github.com/johannaleal/code-quiz",
+        "deploy": "https://johannaleal.github.io/code-quiz/"
+    },
+    {
+        "id": "2",
+        "title": "Weather Dashboard",
+        "img": "weather-dashboard.png",
+        "descr": "A weather dashboard app to see the weather outlook of cities",
+        "github": "https://github.com/johannaleal/weather-dashboard",
+        "deploy": "https://johannaleal.github.io/weather-dashboard/"
+    },
+    {
+        "id": "3",
+        "title": "Password Generator",
+        "img": "password-generator.png",
+        "descr": "An app that generates a random password",
+        "github": "https://github.com/johannaleal/password-generator",
+        "deploy": "https://johannaleal.github.io/password-generator/"
+    },
+    {
+        "id": "4",
+        "title": "Eat-Da-Burger",
+        "img": "burger.png",
+        "descr": "An app that logs burgers created and eaten",
+        "github": "https://github.com/johannaleal/burger",
+        "deploy": "https://burger-johanna.herokuapp.com/"
+    },
+    {
+        "id": "5",
+        "title": "Day Planner",
+        "img": "day-planner.png",
+        "descr": "A simple calendar application to plan your working day",
+        "github": "https://github.com/johannaleal/day-planner",
+        "deploy": "https://johannaleal.github.io/day-planner/"
+    },
+    {
+        "id": "6",
+        "title": "Task Ya Later!",
+        "img": "task-ya-later.png",
+        "descr": "A task and messaging application for teachers and students",
+        "github": "https://github.com/ldelgadoIII/Task-Ya-Later",
+        "deploy": "https://project-two-ljm.herokuapp.com/"
+    }
+]
