@@ -1,4 +1,5 @@
 import React from "react";
+import 'bootstrap/dist/css/bootstrap.min.css';
 import ProjectCard from "../components/ProjectCard";
 import projects from "../projects.json";
 
@@ -10,7 +11,7 @@ function Portfolio () {
   return (
     <div className="container main-container">
     <div className="row justify-content-center">
-        <div className="col-md-8">
+        <div className="col-md-10">
           <h1 className="page-header">Portfolio</h1>
           <div className="row">
             <div className="col-md-6">
@@ -22,10 +23,7 @@ function Portfolio () {
                   github={project.github}
                   deploy={project.deploy}
                 />
-
               ))}
-
-              <br></br>
             </div>
 
             <div className="col-md-6">
@@ -39,8 +37,6 @@ function Portfolio () {
                   deploy={project.deploy}
                 />
               ))}
-
-              <br></br>
             </div>
           </div>
         </div>

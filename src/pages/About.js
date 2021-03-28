@@ -1,4 +1,5 @@
 import React from "react";
+import 'bootstrap/dist/css/bootstrap.min.css';
 import profilePic from "./assets/images/profile-pic.png";
 import gitHubIcon from "./assets/images/GitHub-Mark-64px.png";
 import linkedInIcon from "./assets/images/In-Blue-Logo-original.png";
