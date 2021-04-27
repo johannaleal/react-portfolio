@@ -17,7 +17,7 @@ function About() {
               </div>
 
               <div className="col-md-9">
-                <p>I am a current student at Columbia University Engineering Coding Bootcamp. My most recent experience is as a technical project manager at an educational SaaS startup. I have extensive experience as a software developer but switched over to project management eight years ago. I decided to take this bootcamp to get up to speed on my coding skills. These skills will assist me in my current profession as a technical project manager or perhaps as a web developer.</p>
+                <p>I am a former student of the Columbia University Engineering Coding Bootcamp. My most recent experience is as a technical project manager at an educational SaaS startup. I have extensive experience as a software developer but switched over to project management eight years ago. I decided to take this bootcamp to get up to speed on my coding skills. These skills will assist me in attaining a position as a web developer.</p>
 
                   <p>This portfolio showcases some of the homework and projects that I completed during my bootcamp classes. It includes full-stack technologies such as: HTML, CSS, Bootstrap, JavaScript, and node.js. To see my work, click on the GitHub icon on this page.</p>
               </div>
